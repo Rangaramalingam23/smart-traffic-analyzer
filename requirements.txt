@@ -1,9 +1,10 @@
+# THIS WORKS ON STREAMLIT CLOUD (Python 3.13) - DEC 2025
 opencv-python-headless==4.10.0.84
 ultralytics==8.3.235
 streamlit==1.52.1
-torch==2.4.1
-torchvision==0.19.1
-torchaudio==2.4.1
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
 pillow==10.4.0
 numpy==1.26.4
 matplotlib==3.9.2
