@@ -1,9 +1,9 @@
 opencv-python-headless==4.10.0.84
-ultralytics==8.3.235
-streamlit
-torch==2.9.1+cpu
-torchvision==0.24.1+cpu
-torchaudio==2.9.1
+ultralytics==8.3.0       # works well with PyTorch CPU
+streamlit==1.52.1
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+torchaudio==2.2.2
 pillow
 numpy
 matplotlib
