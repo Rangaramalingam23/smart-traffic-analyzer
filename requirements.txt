@@ -1,17 +1,9 @@
-# allow pip to fetch official PyTorch CPU wheels
---extra-index-url https://download.pytorch.org/whl/cpu
-
 opencv-python-headless==4.10.0.84
 ultralytics==8.3.0
 streamlit==1.52.1
-
-# install CPU builds from the pytorch index
-torch==2.9.1+cpu
-torchvision==0.24.2+cpu
-torchaudio==2.9.1
-
-# pure python packages
-pillow
-numpy
-matplotlib
-pandas
+pillow==10.0.0
+numpy==1.24.3
+matplotlib==3.7.1
+pandas==2.0.3
+torch==2.2.0
+torchvision==0.17.0
